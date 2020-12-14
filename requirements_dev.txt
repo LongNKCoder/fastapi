@@ -1,0 +1,4 @@
+fastapi
+flake8
+pydantic
+black
