@@ -2,3 +2,8 @@ fastapi
 flake8
 pydantic
 black
+uvicorn
+icecream
+pydantic
+python-multipart
+jinja2
