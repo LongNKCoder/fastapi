@@ -1,6 +1,7 @@
 version: "3.2"
 services:
-  ssc-tower:
-    build: .
+  web:
+    build:
+      context: web
     ports:
       - "80:80"
