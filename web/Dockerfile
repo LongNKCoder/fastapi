@@ -1,7 +1,8 @@
-FROM tiangolo/uvicorn-gunicorn-fastapi:python3.7
-COPY . /app/
-USER root
-EXPOSE 80
-RUN pip install -r /app/requirements.txt
-WORKDIR /app/web
-CMD ["uvicorn", "web.main:app", "--host", "0.0.0.0", "--port", "80"]
+FROM nginx:1.17.0
+COPY nginx.conf /etc/nginx/nginx.conf
+COPY ./static /static
+
+RUN chmod -R 777 /var/log/nginx /var/cache/nginx /var/run \
+     && chgrp -R 0 /etc/nginx \
+     && chmod -R g+rwX /etc/nginx \
+     && rm /etc/nginx/conf.d/default.conf

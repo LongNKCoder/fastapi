@@ -1,0 +1,611 @@
+{
+    "aon-linux": [
+        {
+            "client_exclude_id": [
+                3312,
+                3060,
+                3140,
+                3784
+            ],
+            "client_id": true,
+            "comment": "General Linux (668)",
+            "event_category": true,
+            "event_category_exclude": [
+                "backup",
+                "dbms - Microsoft SQL Server - dba",
+                "hardware - storage - datadomain",
+                "middleware - TSM",
+                "middleware - veeam",
+                "monitoring - Zabbix",
+                "operating system - Microsoft Windows",
+                "operating system - Microsoft Windows Cluster"
+            ],
+            "event_type": [
+                2
+            ],
+            "project_id": true,
+            "severity": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "teamincharge": [
+                "AT Backup",
+                "AT BDD",
+                "AT Gestion \u00e9v\u00e8nements",
+                "AT Statistique",
+                "AT Supervision",
+                "AT Virtualisation",
+                "D\u00e9veloppement SI",
+                "None",
+                "S\u00e9curit\u00e9",
+                "T&TC",
+                "Unix"
+            ]
+        },
+        {
+            "client_exclude_id": false,
+            "client_id": [
+                3140,
+                3263
+            ],
+            "comment": "Chanel Linux (922)",
+            "event_category": true,
+            "event_category_exclude": [
+                "monitoring - Zabbix",
+                "monitoring - Zabbix Proxy",
+                "operating system - Microsoft Windows"
+            ],
+            "event_type": [
+                2
+            ],
+            "project_id": true,
+            "severity": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "teamincharge": [
+                "AT Backup",
+                "AT BDD",
+                "AT Gestion \u00e9v\u00e8nements",
+                "AT Statistique",
+                "AT Supervision",
+                "AT Virtualisation",
+                "D\u00e9veloppement SI",
+                "None",
+                "S\u00e9curit\u00e9",
+                "T&TC",
+                "Unix"
+            ]
+        },
+        {
+            "client_exclude_id": false,
+            "client_id": true,
+            "comment": "General Supervision (333)",
+            "event_category": [
+                "monitoring - SolarWindws IpMonitor",
+                "monitoring - Zabbix",
+                "monitoring - Zabbix Proxy"
+            ],
+            "event_category_exclude": false,
+            "event_type": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ],
+            "project_id": true,
+            "severity": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "teamincharge": [
+                "AT Gestion \u00e9v\u00e8nements",
+                "AT Mail",
+                "AT Statistique",
+                "AT Supervision"
+            ]
+        },
+        {
+            "client_exclude_id": false,
+            "client_id": true,
+            "comment": "AT Mail (590)",
+            "event_category": true,
+            "event_category_exclude": false,
+            "event_type": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ],
+            "project_id": true,
+            "severity": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "teamincharge": [
+                "AT Mail"
+            ]
+        }
+    ],
+    "aon-network": [
+        {
+            "client_exclude_id": [
+                3312,
+                3324,
+                3140
+            ],
+            "client_id": true,
+            "comment": "General Network (78)",
+            "event_category": true,
+            "event_category_exclude": false,
+            "event_type": [
+                1,
+                2
+            ],
+            "project_id": true,
+            "severity": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "teamincharge": [
+                "R\u00e9seau et s\u00e9curit\u00e9"
+            ]
+        },
+        {
+            "client_exclude_id": false,
+            "client_id": [
+                3324
+            ],
+            "comment": "Chanel Netlib (859)",
+            "event_category": true,
+            "event_category_exclude": false,
+            "event_type": [
+                2
+            ],
+            "project_id": true,
+            "severity": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "teamincharge": [
+                "R\u00e9seau et s\u00e9curit\u00e9"
+            ]
+        },
+        {
+            "client_exclude_id": false,
+            "client_id": [
+                3140
+            ],
+            "comment": "Chanel APAC Network without AP (1014)",
+            "event_category": true,
+            "event_category_exclude": [
+                "Network - Access Point"
+            ],
+            "event_type": [
+                1,
+                2
+            ],
+            "project_id": true,
+            "severity": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "teamincharge": [
+                "R\u00e9seau et s\u00e9curit\u00e9"
+            ]
+        }
+    ],
+    "aon-windows": [
+        {
+            "client_exclude_id": [
+                3312,
+                3060,
+                3140,
+                3784
+            ],
+            "client_id": true,
+            "comment": "General Windows (666)",
+            "event_category": true,
+            "event_category_exclude": [
+                "backup",
+                "dbms - Microsoft SQL Server - dba",
+                "dbms - Postgresql",
+                "hardware - storage - datadomain",
+                "middleware - TSM",
+                "middleware - veeam",
+                "monitoring - Zabbix",
+                "operating system - Linux",
+                "operating system - linux cluster",
+                "operating system - Unix"
+            ],
+            "event_type": [
+                2
+            ],
+            "project_id": true,
+            "severity": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "teamincharge": [
+                "AT Backup",
+                "AT BDD",
+                "AT Gestion \u00e9v\u00e8nements",
+                "AT Statistique",
+                "AT Supervision",
+                "AT Virtualisation",
+                "D\u00e9veloppement SI",
+                "None",
+                "S\u00e9curit\u00e9",
+                "T&TC",
+                "Windows"
+            ]
+        },
+        {
+            "client_exclude_id": false,
+            "client_id": [
+                3140,
+                3263
+            ],
+            "comment": "Chanel Windows (925)",
+            "event_category": true,
+            "event_category_exclude": [
+                "monitoring - Zabbix",
+                "monitoring - Zabbix Proxy",
+                "operating system - Microsoft Windows"
+            ],
+            "event_type": [
+                2
+            ],
+            "project_id": true,
+            "severity": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "teamincharge": [
+                "AT Backup",
+                "AT BDD",
+                "AT Gestion \u00e9v\u00e8nements",
+                "AT Mail",
+                "AT Statistique",
+                "AT Supervision",
+                "AT Virtualisation",
+                "Exchange-AD",
+                "D\u00e9veloppement SI",
+                "Windows"
+            ]
+        },
+        {
+            "client_exclude_id": false,
+            "client_id": [
+                3133
+            ],
+            "comment": "New Viet Dairy Backup for AON-MS",
+            "event_category": [
+                "email \u2013 alert"
+            ],
+            "event_category_exclude": false,
+            "event_type": [
+                2
+            ],
+            "project_id": true,
+            "severity": [
+                2
+            ],
+            "teamincharge": true
+        },
+        {
+            "client_exclude_id": false,
+            "client_id": [
+                3480
+            ],
+            "comment": "New Viet Dairy Backup for AON-MS",
+            "event_category": [
+                "email \u2013 alert"
+            ],
+            "event_category_exclude": false,
+            "event_type": [
+                2
+            ],
+            "project_id": true,
+            "severity": [
+                2
+            ],
+            "teamincharge": true
+        },
+        {
+            "client_exclude_id": false,
+            "client_id": [
+                3701
+            ],
+            "comment": "New Viet Dairy Backup for AON-MS",
+            "event_category": [
+                "email \u2013 alert"
+            ],
+            "event_category_exclude": false,
+            "event_type": [
+                2
+            ],
+            "project_id": true,
+            "severity": [
+                2
+            ],
+            "teamincharge": true
+        }
+    ],
+    "ecas-l1": [
+        {
+            "client_exclude_id": false,
+            "client_id": [
+                3312,
+                3784
+            ],
+            "comment": "DFS RICE + CARREFOUR (852)",
+            "event_category": true,
+            "event_category_exclude": [
+                "monitoring - Zabbix",
+                "monitoring - Zabbix Proxy",
+                "operating system - Microsoft Windows"
+            ],
+            "event_type": [
+                2
+            ],
+            "project_id": true,
+            "severity": [
+                1,
+                2
+            ],
+            "teamincharge": [
+                "AT Backup",
+                "AT Gestion \u00e9v\u00e8nements",
+                "AT Statistique",
+                "AT Supervision",
+                "Infrastructure",
+                "D\u00e9veloppement SI",
+                "None",
+                "Unix"
+            ]
+        },
+        {
+            "client_exclude_id": false,
+            "client_id": [
+                3312
+            ],
+            "comment": "DFS RICE AIX (966)",
+            "event_category": true,
+            "event_category_exclude": [
+                "monitoring - Zabbix",
+                "monitoring - Zabbix Proxy",
+                "operating system - Microsoft Windows"
+            ],
+            "event_type": [
+                1,
+                2
+            ],
+            "project_id": true,
+            "severity": [
+                1,
+                2
+            ],
+            "teamincharge": [
+                "IBM-AIX"
+            ]
+        }
+    ],
+    "maintenances": [],
+    "security": [],
+    "ssc-backup": [
+        {
+            "client_exclude_id": false,
+            "client_id": [
+                3312
+            ],
+            "comment": "DFS RICE Backup TSM",
+            "event_category": [
+                "middleware - TSM"
+            ],
+            "event_category_exclude": false,
+            "event_type": [
+                2
+            ],
+            "project_id": true,
+            "severity": [
+                1,
+                2,
+                3
+            ],
+            "teamincharge": true
+        },
+        {
+            "client_exclude_id": false,
+            "client_id": [
+                3671
+            ],
+            "comment": "FLG Backup",
+            "event_category": [
+                "backup"
+            ],
+            "event_category_exclude": false,
+            "event_type": [
+                1,
+                2
+            ],
+            "project_id": true,
+            "severity": [
+                1,
+                2,
+                3
+            ],
+            "teamincharge": true
+        },
+        {
+            "client_exclude_id": false,
+            "client_id": true,
+            "comment": "Backup Azure",
+            "event_category": [
+                "backup azure"
+            ],
+            "event_category_exclude": false,
+            "event_type": [
+                2
+            ],
+            "project_id": true,
+            "severity": [
+                3
+            ],
+            "teamincharge": true
+        },
+        {
+            "client_exclude_id": false,
+            "client_id": [
+                2865
+            ],
+            "comment": "LBN Vietnam Backup",
+            "event_category": [
+                "middleware - veeam"
+            ],
+            "event_category_exclude": false,
+            "event_type": [
+                2
+            ],
+            "project_id": true,
+            "severity": [
+                1,
+                2,
+                3
+            ],
+            "teamincharge": true
+        },
+        {
+            "client_exclude_id": false,
+            "client_id": [
+                3133
+            ],
+            "comment": "New Viet Dairy Backup",
+            "event_category": [
+                "backup"
+            ],
+            "event_category_exclude": false,
+            "event_type": [
+                2
+            ],
+            "project_id": true,
+            "severity": [
+                2,
+                3
+            ],
+            "teamincharge": true
+        },
+        {
+            "client_exclude_id": false,
+            "client_id": true,
+            "comment": "General Backup",
+            "event_category": [
+                "backup",
+                "hardware - HP storage",
+                "hardware - Library Tape - MSL",
+                "middleware - veeam",
+                "hardware - storage - datadomain",
+                "middleware - Commvault",
+                "middleware - evault",
+                "middleware - HP dataprotector",
+                "middleware - Netbackup",
+                "middleware - TSM"
+            ],
+            "event_category_exclude": false,
+            "event_type": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ],
+            "project_id": true,
+            "severity": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "teamincharge": [
+                "AT Backup"
+            ]
+        }
+    ],
+    "supervision": [
+        {
+            "client_exclude_id": false,
+            "client_id": true,
+            "comment": "General Supervision (333)",
+            "event_category": [
+                "monitoring - SolarWindws IpMonitor",
+                "monitoring - Zabbix",
+                "monitoring - Zabbix Proxy"
+            ],
+            "event_category_exclude": false,
+            "event_type": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ],
+            "project_id": true,
+            "severity": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "teamincharge": [
+                "AT Gestion \u00e9v\u00e8nements",
+                "AT Mail",
+                "AT Statistique",
+                "AT Supervision"
+            ]
+        },
+        {
+            "client_exclude_id": false,
+            "client_id": true,
+            "comment": "AT Mail (590)",
+            "event_category": true,
+            "event_category_exclude": false,
+            "event_type": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ],
+            "project_id": true,
+            "severity": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "teamincharge": [
+                "AT Mail"
+            ]
+        }
+    ]
+}

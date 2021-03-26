@@ -1,7 +1,22 @@
 version: "3.2"
 services:
   web:
-    build:
-      context: web
+    build: web
     ports:
-      - "80:80"
+      - "4000:4000"
+    depends_on:
+      - api
+    container_name: web
+
+  api:
+    build:
+      context: backend
+    volumes:
+      - data-volume:/app/files
+      - type: bind
+        source: ./backend
+        target: /app
+    container_name: api
+
+volumes:
+  data-volume:

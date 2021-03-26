@@ -1,6 +1,0 @@
-pydantic
-flake8
-python-multipart
-jinja2
-aiofiles
-python-keycloak
